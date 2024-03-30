@@ -4,7 +4,7 @@ import numpy as np
 import utils.colors as colors
 from utils.logger import console
 
-MASS_MULTIPLIER = pow(10, 14)
+MASS_MULTIPLIER = pow(10, 15)
 
 b1 = Body(
     positionVector=np.array([[500, 300, 0]]),
